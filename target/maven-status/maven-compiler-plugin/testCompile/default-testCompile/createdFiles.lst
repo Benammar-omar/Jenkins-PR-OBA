@@ -5,6 +5,7 @@ stepsDefinition\ResearchCandidatureSteps.class
 pages\DashboardPage.class
 runners\Runner.class
 stepsDefinition\PaginationCandidaturesSteps.class
+pages\FileChecker.class
 pages\CandidaturePage.class
 stepsDefinition\Hooks.class
 pages\CursusPage.class
