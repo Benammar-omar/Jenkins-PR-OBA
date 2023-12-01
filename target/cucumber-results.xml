@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="133.575" tests="17" skipped="0" failures="3" errors="0">
-<testcase classname="Add lessons to module" name="Add lesson with valid credentials" time="6.189">
+<testsuite name="Cucumber" time="134.21" tests="17" skipped="0" failures="3" errors="0">
+<testcase classname="Add lessons to module" name="Add lesson with valid credentials" time="6.08">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -14,7 +14,7 @@ And the admin types "LeconTest" and "Test00" as title and status of the lesson.p
 Then the add button becomes enabled.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Add lessons to module" name="Add lesson with invalid credentials - Example #1.1" time="4.785">
+<testcase classname="Add lessons to module" name="Add lesson with invalid credentials - Example #1.1" time="4.706">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -28,7 +28,7 @@ And the admin types "" and Test00 of the lesson.............................pass
 Then the add button does not become enabled.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Add lessons to module" name="Add lesson with invalid credentials - Example #1.2" time="4.648">
+<testcase classname="Add lessons to module" name="Add lesson with invalid credentials - Example #1.2" time="4.302">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -42,7 +42,7 @@ And the admin types LeconTest and "" of the lesson..........................pass
 Then the add button does not become enabled.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Add lessons to module" name="Add lesson with invalid credentials - Example #1.3" time="4.657">
+<testcase classname="Add lessons to module" name="Add lesson with invalid credentials - Example #1.3" time="4.693">
 <failure type="java.lang.AssertionError">
 <![CDATA[java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
@@ -66,7 +66,7 @@ And the admin types " " and " " of the lesson...............................pass
 Then the add button does not become enabled.................................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Add lessons to module" name="Check that the lesson has been added" time="4.129">
+<testcase classname="Add lessons to module" name="Check that the lesson has been added" time="4.404">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -78,7 +78,7 @@ And the admin enters the module info........................................pass
 Then the lesson has been added..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Display of Candidatures in the Table" name="Verifying the display of all required candidature details" time="4.662">
+<testcase classname="Display of Candidatures in the Table" name="Verifying the display of all required candidature details" time="4.464">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -93,7 +93,7 @@ And a valid phone number should be displayed for each candidature...........pass
 And a valid status should be displayed for each candidature.................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Display of Candidatures in the Table" name="Verifying the display of action buttons for each candidature" time="4.208">
+<testcase classname="Display of Candidatures in the Table" name="Verifying the display of action buttons for each candidature" time="4.211">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -105,7 +105,7 @@ And a download CV button should be displayed for each candidature...........pass
 And a candidature treatment action should be displayed only for candidatures with the status Accepted or In process.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Extraction and Filtering of Candidate Data" name="Extracting Candidate data" time="43.446">
+<testcase classname="Extraction and Filtering of Candidate Data" name="Extracting Candidate data" time="44.402">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -116,7 +116,7 @@ When the admin download data from multiple pages............................pass
 Then data of all candidatures should be extracted...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Check login with valid credentials - Example #1.1" time="3.941">
+<testcase classname="Login" name="Check login with valid credentials - Example #1.1" time="3.87">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -125,7 +125,7 @@ And the admin clicks on login button........................................pass
 Then the admin is on the dashboard page.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pagination on the Candidature Interface" name="Navigate to the third page using the next page button" time="3.881">
+<testcase classname="Pagination on the Candidature Interface" name="Navigate to the third page using the next page button" time="3.955">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -149,7 +149,7 @@ And the admin clicks on the previous page button............................pass
 Then the first page of candidatures should be displayed.....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pagination on the Candidature Interface" name="Navigate to the final page using the final page button" time="4.121">
+<testcase classname="Pagination on the Candidature Interface" name="Navigate to the final page using the final page button" time="4.293">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -161,7 +161,7 @@ And the admin clicks on the final page button...............................pass
 Then the last page of candidatures should be displayed......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pagination on the Candidature Interface" name="Navigate to the first page using the first page button from the second page" time="4.155">
+<testcase classname="Pagination on the Candidature Interface" name="Navigate to the first page using the first page button from the second page" time="4.051">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -173,7 +173,7 @@ And the admin clicks on the first page button...............................pass
 Then the first page of candidatures should be displayed.....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify recherche field" name="As an admin, I want to search for a candidat by name - Example #1.1" time="10.585">
+<testcase classname="Verify recherche field" name="As an admin, I want to search for a candidat by name - Example #1.1" time="10.772">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -184,7 +184,7 @@ And the admin types "Sami" in the search field..............................pass
 Then the data of the candidat should appear.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify recherche field" name="As an admin, I want to search for a candidat by full name - Example #1.1" time="4.04">
+<testcase classname="Verify recherche field" name="As an admin, I want to search for a candidat by full name - Example #1.1" time="3.912">
 <failure type="java.lang.AssertionError" message="No results message should be displayed">
 <![CDATA[java.lang.AssertionError: No results message should be displayed
 	at org.junit.Assert.fail(Assert.java:89)
@@ -204,7 +204,7 @@ And the admin types "Sami Kammoun" in the search field......................pass
 Then the data of the candidat should appear.................................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify recherche field" name="As an admin, I want to search for a candidat by email - Example #1.1" time="10.74">
+<testcase classname="Verify recherche field" name="As an admin, I want to search for a candidat by email - Example #1.1" time="10.678">
 <system-out><![CDATA[
 Given the admin is on the home page.........................................passed
 When the admin clicks on connexion..........................................passed
@@ -215,7 +215,7 @@ And the admin types "samikammoun@gmail.com" in the search field.............pass
 Then the data of the candidat should appear.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify recherche field" name="As an admin, I want to search for a candidat by situation - Example #1.1" time="10.716">
+<testcase classname="Verify recherche field" name="As an admin, I want to search for a candidat by situation - Example #1.1" time="10.737">
 <failure type="java.lang.AssertionError" message="No results message should be displayed">
 <![CDATA[java.lang.AssertionError: No results message should be displayed
 	at org.junit.Assert.fail(Assert.java:89)
