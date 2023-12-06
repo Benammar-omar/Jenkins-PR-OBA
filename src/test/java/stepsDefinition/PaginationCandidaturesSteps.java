@@ -11,8 +11,8 @@ public class PaginationCandidaturesSteps {
 	CandidaturePage candidature = new CandidaturePage(driver);
 
 	@When("the admin is on the second page of candidatures")
-	public void the_admin_is_on_the_second_page_of_candidatures() {
-	
+	public void the_admin_is_on_the_second_page_of_candidatures() throws Throwable {
+		Thread.sleep(1000);
 		candidature.secondePageCandidature();
 	}
 
