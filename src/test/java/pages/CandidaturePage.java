@@ -128,6 +128,7 @@ public class CandidaturePage {
 	}
 
 	public void clickOnExportButton() {
+		
 		driver.findElement(exportButton).click();
 	}
 

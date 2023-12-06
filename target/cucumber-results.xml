@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.942" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Pagination on the Candidature Interface" name="Navigate to the third page using the next page button" time="4.066">
+<system-out><![CDATA[
+Given the admin is on the home page.........................................passed
+When the admin clicks on connexion..........................................passed
+And the admin enters mouna.makni@talan.com and Admin09$.....................passed
+And the admin clicks on login button........................................passed
+And the admin navigates to the candidature section..........................passed
+When the admin is on the second page of candidatures........................passed
+And the admin clicks on the next page button................................passed
+Then the third page of candidatures should be displayed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pagination on the Candidature Interface" name="Navigate to the first page using the previous page button from the second page" time="3.492">
+<system-out><![CDATA[
+Given the admin is on the home page.........................................passed
+When the admin clicks on connexion..........................................passed
+And the admin enters mouna.makni@talan.com and Admin09$.....................passed
+And the admin clicks on login button........................................passed
+And the admin navigates to the candidature section..........................passed
+When the admin is on the second page of candidatures........................passed
+And the admin clicks on the previous page button............................passed
+Then the first page of candidatures should be displayed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pagination on the Candidature Interface" name="Navigate to the final page using the final page button" time="3.513">
+<system-out><![CDATA[
+Given the admin is on the home page.........................................passed
+When the admin clicks on connexion..........................................passed
+And the admin enters mouna.makni@talan.com and Admin09$.....................passed
+And the admin clicks on login button........................................passed
+And the admin navigates to the candidature section..........................passed
+When the admin is on the second page of candidatures........................passed
+And the admin clicks on the final page button...............................passed
+Then the last page of candidatures should be displayed......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pagination on the Candidature Interface" name="Navigate to the first page using the first page button from the second page" time="3.684">
+<system-out><![CDATA[
+Given the admin is on the home page.........................................passed
+When the admin clicks on connexion..........................................passed
+And the admin enters mouna.makni@talan.com and Admin09$.....................passed
+And the admin clicks on login button........................................passed
+And the admin navigates to the candidature section..........................passed
+When the admin is on the second page of candidatures........................passed
+And the admin clicks on the first page button...............................passed
+Then the first page of candidatures should be displayed.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
