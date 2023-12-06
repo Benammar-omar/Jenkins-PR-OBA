@@ -23,9 +23,10 @@ public class PaginationCandidaturesSteps {
 	}
 
 	@Then("the third page of candidatures should be displayed")
-	public void the_third_page_of_candidatures_should_be_displayed() {
+	public void the_third_page_of_candidatures_should_be_displayed() throws Throwable {
 		String expectedText = "11 à 15";
 		String actualText = candidature.getIndexPageText();
+		Thread.sleep(1000);
 		assert actualText.contains(expectedText) : "The pagination index does not contain the expected text.";
 	}
 
