@@ -1,5 +1,5 @@
 @displayCandidatures
-Feature: Display of Candidatures in the Table
+Feature: Displaying candidates in the table
   As an admin, I want to ensure that all candidature details are correctly displayed and formatted in the candidatures section.
 
   Background: 
