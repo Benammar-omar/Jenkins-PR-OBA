@@ -139,6 +139,7 @@ public class CandidaturePage {
 			return false;
 		}
 	}
+	
 
 	public void goToNextPage() {
 		driver.findElement(nextPageBtn).click();

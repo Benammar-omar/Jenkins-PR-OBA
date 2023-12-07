@@ -11,6 +11,7 @@ public class CursusPage {
 	public CursusPage(WebDriver driver) {
 		this.driver = driver;
 	}
+	
 
 	public void clicksEditCursusButton () {
 		driver.findElement(editCursusBtn).click();
